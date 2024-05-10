@@ -1,0 +1,257 @@
+h1 {
+
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    color: #333; /* text color */
+    text-align: center;
+    text-transform: uppercase; /* Uppercase */
+    padding: 5px; /* padding around the text */
+    margin: 30px; /* Adjust to control spacing */
+    background-color: #3498db; /* color of the h1 tag */
+    border-radius: 500px;
+    border: 500px;
+    width: 500px;
+
+
+
+/* Animation */
+    animation-name: slideBackAndForth;
+    animation: slideBackAndForth 3s ease-in-out infinite alternate;
+    animation-iteration-count: infinite;
+
+}
+
+/* keyframes for Animation */
+@keyframes slideBackAndForth {
+500% {
+    transform: translateX(-100px);
+ }
+ 100% {
+    transform: translateX(500px);
+ }
+}
+
+
+
+
+/* images */
+
+.container img {
+    width: 250px;
+    height: auto;
+    margin-top: 80px;
+    margin-left: 480px;
+    position: relative;
+    border-radius: 25px;
+}
+
+.download-link {
+    position: relative;
+    margin-left:  10px;  /* position the download button left side of the image */
+    bottom: 10px;  /* position the download button down-ward */
+    background-color: #007bff; /* color of the download bottom */
+    text-decoration: none;
+    padding: 5px 10px;  /* Around the txt */
+    border-radius: 5px;  /* beautified the download-button */
+    color: #fff;  /* color of the download button */
+    font-size: 14px;  /* size of the download button */
+}
+
+/* background-color of the download button */
+
+.download-link:hover {
+    background-color: #2980b9;
+}
+
+
+/* style for contact */
+ .navbar {
+          overflow: hidden;
+          background-color: gray;
+          display: flex;
+          justify-content: center; /* Align items in the center horizontally */
+          width: 30%; /* Adjusted width */
+          margin: 0 auto; /* Center the navbar */
+          margin-top: 60px;
+          border-radius: 25px;
+          align-items: flex-end;
+        }
+
+        .navbar a {
+
+             display: block;
+             color: black;
+             text-align: center;
+             padding: 10px 20px; /* Adjusted padding */
+             margin: 0 10px; /* Added margin for spacing */
+             text-decoration: none;
+             font-size: 14px; /* Smaller font size */
+
+        }
+
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .active {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+
+.search-container {
+
+    text-align: right auto;
+    top: 20px; /* Adjust as needed */
+    margin-left: 500px;
+    z-index: 999; /* Ensure the container appears above other elements */
+    text-align: right; /* Align the contents to the right */
+
+    position: fixed; /* Position the container relative to the viewport */
+
+}
+
+/* search */
+#searchInput {
+    padding: 10px;
+    width: 170px;
+    border-radius: 10px 0 0 10px;
+    border: 1px; solid #ccc;
+    background-color: transparent;
+}
+
+button {
+    padding: 9px 10px;
+    background-color: transparent;
+    color: black;
+    border: 1px solid #4caf50;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: orange;
+}
+
+#noResultMessage {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+
+
+
+
+
+
+.container {
+    position: relative;
+}
+
+
+        /* CSS to style the contact section */
+        #contact {
+            position: fixed;
+            left: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: #f4f4f4;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Style the contact section content */
+        #contact h2 {
+            margin-top: 0;
+            font-size: 24px;
+            color: #333;
+        }
+
+        #contact p {
+            margin: 10px 0;
+            font-size: 16px;
+        }
+
+        #contact a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        #contact a:hover {
+            text-decoration: underline;
+        }
+
+
+
+
+/* Name */
+.name {
+    position: absolute;
+    top: 20%;
+    left: 745px; /* Adjust this value to your preference */
+
+}
+
+/* County */
+.county {
+    position: absolute;
+    top: 25%;
+    left: 745px; /* Adjust this value to your preference */
+    margin-bottom: px;
+}
+
+body {
+	background-color;
+}
+
+
+/* follower-btn */
+
+.follower-button {
+    position: fixed;
+    top: 120px;
+    left: 80px;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.follower-count {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 50%;
+    font-size: 12px;
+}
+
+.follower-button button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.follower-button button:hover {
+    background-color: #0056b3;
+}
+
+
