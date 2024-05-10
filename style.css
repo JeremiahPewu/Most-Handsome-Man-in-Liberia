@@ -107,7 +107,7 @@ h1 {
     margin-left: 500px;
     z-index: 999; /* Ensure the container appears above other elements */
     text-align: right; /* Align the contents to the right */
-
+    right: 10px;
     position: fixed; /* Position the container relative to the viewport */
 
 }
@@ -199,7 +199,7 @@ button:hover {
 .name {
     position: absolute;
     top: 20%;
-    left: 745px; /* Adjust this value to your preference */
+    left: 790px; /* Adjust this value to your preference */
 
 }
 
@@ -207,7 +207,7 @@ button:hover {
 .county {
     position: absolute;
     top: 25%;
-    left: 745px; /* Adjust this value to your preference */
+    left: 790px; /* Adjust this value to your preference */
     margin-bottom: px;
 }
 
