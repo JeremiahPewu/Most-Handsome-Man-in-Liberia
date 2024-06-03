@@ -32,8 +32,6 @@ function searchFunction() {
 }
 
 
-
-
 let isFollowing = false;
 let followerCount = 0;
 
